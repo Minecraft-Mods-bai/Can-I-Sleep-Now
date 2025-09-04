@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "can-i-sleep-now",
+	"version": "${version}",
+	"name": "Can I Sleep Now?",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/can-i-sleep-now/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"you.can.sleep.now.CanISleepNow"
+		],
+		"client": [
+			"you.can.sleep.now.CanISleepNowClient"
+		]
+	},
+	"mixins": [
+		"can-i-sleep-now.mixins.json",
+		{
+			"config": "can-i-sleep-now.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
