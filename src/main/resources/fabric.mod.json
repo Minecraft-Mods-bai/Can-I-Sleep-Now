@@ -8,16 +8,13 @@
 		"Baturax"
 	],
 	"contact": {
-		"homepage": "https://baturax.com",
+		"homepage": "https://wolfcub.org",
 		"sources": "https://github.com/Minecraft-Mods-bai/Can-I-Sleep-Now"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/can-i-sleep-now/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": [
-			"you.can.sleep.now.CanISleepNow"
-		],
 		"client": [
 			"you.can.sleep.now.CanISleepNowClient"
 		]
@@ -36,6 +33,5 @@
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"another-mod": "*"
 	}
 }
