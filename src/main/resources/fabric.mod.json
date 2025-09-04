@@ -3,13 +3,13 @@
 	"id": "can-i-sleep-now",
 	"version": "${version}",
 	"name": "Can I Sleep Now?",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Shows if you can sleep in f3 bar, with the remaining seconds",
 	"authors": [
-		"Me!"
+		"Baturax"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://baturax.com",
+		"sources": "https://github.com/Minecraft-Mods-bai/Can-I-Sleep-Now"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/can-i-sleep-now/icon.png",
