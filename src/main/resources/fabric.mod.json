@@ -20,7 +20,6 @@
 		]
 	},
 	"mixins": [
-		"can-i-sleep-now.mixins.json",
 		{
 			"config": "can-i-sleep-now.client.mixins.json",
 			"environment": "client"
